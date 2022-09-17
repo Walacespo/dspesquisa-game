@@ -1,12 +1,10 @@
-import Header from './components/Header';
 import './App.css';
-import Home from './pages/Home';
+import Rota from './Rota';
 
 function App() {
   return (
     <div>
-      <Header />
-      <Home />
+     <Rota />
     </div>
   );
 }
